@@ -1,0 +1,42 @@
+/* Centrer le contenu */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Conteneur principal */
+.container {
+    text-align: center;
+}
+
+/* Boîte de couleur */
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.4s ease;
+}
+
+/* Bouton stylisé */
+#change-color-btn {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#change-color-btn:hover {
+    background-color: #27ae60;
+}
